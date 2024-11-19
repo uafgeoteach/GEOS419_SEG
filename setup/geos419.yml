@@ -1,0 +1,10 @@
+name: geos419
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - pip         # 24.0
+    - numpy       # 2.0.0
+    - matplotlib  # 3.8.4
+    - ipython     # 8.26.0
+    - jupyterlab  # 4.2.3
