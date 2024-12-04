@@ -1,40 +1,42 @@
-# GEOS419_SEG
+# GEOS419: Solid Earth Geophysics
 
-A public GitHub repository within the organization
-[uafgeoteach](https://github.com/uafgeoteach). Contains materials for GEOS 419 Solid Earth Geophysics, a class at the University of Alaska Fairbanks by [Bryant Chow](https://bryantchow.com/) and [Carl Tape](https://sites.google.com/alaska.edu/carltape/)
+A public GitHub repository within the organization [uafgeoteach](https://github.com/uafgeoteach). 
+Contains materials for GEOS 419 Solid Earth Geophysics, a class at the University of Alaska Fairbanks by 
+[Bryant Chow](https://bryantchow.com/) and [Carl Tape](https://sites.google.com/alaska.edu/carltape/)
 
-Course webpage: [GEOS 419](https://bryantchow.com/teaching/geos419)
+Course Webpage: [GEOS 419](https://bryantchow.com/teaching/geos419)
 
-The repository can be obtained from GitHub with this command:
-```
+This repository can be downloaded from GitHub with the following command:
+
+```bash
 git clone --depth=1 https://github.com/uafgeoteach/GEOS419_SEG.git
 ```
 
-UAF students will run these notebooks within the OpenScienceLab setup at UAF.
-
-### Setup
----
-A `.yml` file (see setup/ folder) lists dependencies. This file, executed within conda or docker, enables a user to establish the software tools needed to execute the iPython notebooks.
-
-### How to run using Conda
 ---
 
-- install conda (miniconda or anaconda, former recommended) if not done already
-- navigate to the setup folder
+## SETUP
+UAF students will run these notebooks within the OpenScienceLab setup at UAF and 
+do not need to manually install or set up their own environments. However for those
+that would like to run things locally, please follow the instructions below.
+
+### Local Conda Environment
+
+1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [anaconda](https://www.anaconda.com/products/individual)
+2. Navigate to the GEOS419_SEG directory
   ```bash
   cd GEOS419_SEG/setup
   ```
-- setup the conda environment
+3. Create your Conda environment
   ```bash
-  conda env create -f geos419.yml
+  conda env create -f setup/geos419.yml
   ```
-- activate the conda environment once the setup is complete
+4. Activate the conda environment
   ```bash
   conda activate geos419
   ```
-- navigate back to the root of repository and launch jupyter
+5. Launch jupyter lab
   ```bash
   cd ..
   jupyter lab
   ```
-- browse and run notebooks as desired
+6. This should open a web browser interface where you can browse and run notebooks
