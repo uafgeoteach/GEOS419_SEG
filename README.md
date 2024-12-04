@@ -3,7 +3,7 @@
 A public GitHub repository within the organization
 [uafgeoteach](https://github.com/uafgeoteach). Contains materials for GEOS 419 Solid Earth Geophysics, a class at the University of Alaska Fairbanks by [Bryant Chow](https://bryantchow.com/) and [Carl Tape](https://sites.google.com/alaska.edu/carltape/)
 
-Course webpage: [GEOS 419]
+Course webpage: [GEOS 419](https://bryantchow.com/teaching/geos419)
 
 The repository can be obtained from GitHub with this command:
 ```
