@@ -40,3 +40,6 @@ that would like to run things locally, please follow the instructions below.
   jupyter lab
   ```
 6. This should open a web browser interface where you can browse and run notebooks
+
+7. Don't forget to deactive your Conda environment
+   ```conda deactivate```
