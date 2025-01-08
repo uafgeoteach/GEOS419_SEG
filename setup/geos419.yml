@@ -1,15 +1,22 @@
 name: geos419
 channels:
-    - conda-forge
-    - defaults
+  - conda-forge
 dependencies:
-    - python=3.12
-    - pip=24.0   
-    - numpy=2.0.0 
-    - matplotlib=3.8.4
-    - ipython=8.29.0 
-    - jupyterlab=4.2.3
-    - pandas=2.1.1
-    - pyspedas=1.7.20
-    - glob2=0.7
-    - zipfile36=0.1.3
+  - ipyfilechooser
+  - ipympl
+  - ipython<=8.16
+  - ipywidgets<8.0.0
+  - jupyter
+  - jupyter-resource-usage
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - kernda
+  - obspy
+  - cartopy
+  - pandas
+  - glob2
+  - pip
+  - pip:
+      - df-jupyter-magic
+      - pyspedas
+      - zipfile36
