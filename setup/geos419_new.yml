@@ -1,0 +1,21 @@
+name: geos419
+channels:
+  - conda-forge
+dependencies:
+  - ipyfilechooser
+  - ipympl
+  - ipython[version='<=8.16']
+  - ipywidgets[version='<8.0.0']
+  - jupyter-resource-usage
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - kernda
+  - obspy
+  - cartopy
+  - pandas
+  - pyspedas
+  - glob2
+  - zipfile36
+  - pip:
+      - df-jupyter-magic
