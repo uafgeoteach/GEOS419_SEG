@@ -4,8 +4,7 @@ channels:
 dependencies:
   - ipyfilechooser
   - ipympl
-  - ipython<=8.16
-  - ipywidgets<8.0.0
+  - ipython
   - jupyter
   - jupyter-resource-usage
   - jupyter_contrib_nbextensions
