@@ -13,9 +13,11 @@ git clone --depth=1 https://github.com/uafgeoteach/GEOS419_SEG.git
 ```
 
 ## Setup
-UAF students will run these notebooks within the [OpenScienceLab](https://asf.alaska.edu/asf-services-open-science-lab/) environment at UAF and do not need to manually install or set up their own environments. 
+UAF students will run these notebooks within the [OpenScienceLab](https://asf.alaska.edu/asf-services-open-science-lab/) environment and do not need to install anything or set up their own environments. 
 
 > [Students click here for OpenScienceLab setup instructions](https://docs.google.com/document/d/1IcJmGEM3duD2k0xrqxtzjBbeH-OpvQNa5Rg9O-zGTUs/edit?usp=sharing)
+
+------------
 
 For advanced students who would like to run things on their own computer, please follow the instructions below.
 
@@ -47,7 +49,7 @@ git clone --depth=1 https://github.com/uafgeoteach/GEOS419_SEG.git
 
 9. Once you are done, make sure to save your progress and then close out of the 
    browesr. Don't forget to deactive your Conda environment
-   ```bash
-   conda deactivate
-   ```
+  ```bash
+  conda deactivate
+  ```
    
