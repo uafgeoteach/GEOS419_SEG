@@ -43,3 +43,4 @@ that would like to run things locally, please follow the instructions below.
 
 7. Don't forget to deactive your Conda environment
    ```conda deactivate```
+   
