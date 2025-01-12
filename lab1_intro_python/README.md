@@ -1,18 +1,23 @@
 # GEOS419 Lab 1: Intro to Python
 
-## Setup
+> [Students click here for OpenScienceLab setup instructions](https://docs.google.com/document/d/1IcJmGEM3duD2k0xrqxtzjBbeH-OpvQNa5Rg9O-zGTUs/edit?usp=sharing)
 
+
+--------------
+*Below are instructions for those that do not have access to the setup document listed above*
+
+### Setup
 We will run OpenScienceLab from a browser on our computer
 
 1. Sign up for an ASF OpenScienceLab account here: https://opensciencelab.asf.alaska.edu/portal/hub/signup
-2. To sign in with multifactor authentication, you will need an authenticator app on your phone, we suggest: Google Authenticator
+2. To sign in with multifactor authentication, you will need an authenticator app on your phone
 3. Sign in to ASF OpenScienceLab with your account and MFA code
 4. At the bottom of the 'Welcome' page, you should see a `GEOS419` block, click the `Go to lab` button
 5. On the following page, click the `Start My Server` button
 6. From the available Server Options, select: 'm6a.large - Single User', and click `Start`
 5. Startup of the Jupyter Lab environment may take up to a few minutes
 
-## Jupyter Lab
+### Jupyter Lab
 
 Once you have successfully accessed your JupyterLab environment, we will clone our first lab
 
@@ -27,8 +32,8 @@ Once you have successfully accessed your JupyterLab environment, we will clone o
 4. Once cloned, you can access the repository from the directory window on the left-hand side of the browser
 5. Double-click `GEOS419_SEG` > `lab1_intro_python` > `geos419_lab1_notebook1.ipynb`
 6. This will open up a Jupyter notebook containing our first computer lab exercise
-
-## Jupyter Notebook
+   
+### Running Jupyter Notebooks
 
 Inside the Jupyter notebook, read along through the text and interact with the cells where possible.
 Some cells are left intentionally blank, and are for you to input your own code.
