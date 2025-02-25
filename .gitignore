@@ -1,3 +1,8 @@
+# GEOS419
+lab3b_magnetometer_data_analysis/GEOS_419_?/Deployment*/geos*
+lab3b_magnetometer_data_analysis/themis_data
+*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
